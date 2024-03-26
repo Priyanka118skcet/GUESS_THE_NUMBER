@@ -1,0 +1,125 @@
+/* Guess.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+   background-image: url('../../images/b53.png');
+   background-position: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  .ll{
+    color: #080808;
+  }
+
+  .KK{
+    font-weight: bolder;
+  }
+
+  .rr{
+    background-color: #ccc;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(185, 229, 239, 0.7); /* Opacity set to 50% */
+    /* box-shadow: 0 0 30px rgb(32, 141, 165); */
+    box-shadow: 0 0 30px rgb(200, 170, 216);
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 130px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: calc(114% - 100px);
+    padding: 12px;
+    margin: 0 auto; /* Center the input field horizontally */
+    margin-bottom: 10px;
+    border: 2px solid #120d0d;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #080808;
+    
+  }
+  
+  button {
+    padding: 12px 26px;
+    margin: 0 20px 2px 0; /* Adjusted margin */
+    border: none;
+    border-radius: 20px;
+    background-color: #092f4c;
+    opacity: 0.6;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:last-child {
+    margin-right: 0;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:last-child {
+    margin-right: 0;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  select {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #ccc;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  .attempts-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .difficulty-container {
+    margin-top: 20px;
+  }
+  

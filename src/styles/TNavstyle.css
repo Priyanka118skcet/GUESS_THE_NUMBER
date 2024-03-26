@@ -1,0 +1,74 @@
+/* TNavstyle.css */
+
+.navbar {
+	height: 70px;
+	width: 100%;
+	background-color: rgb(1, 13, 54);
+	opacity: 0.7;
+	color: rgb(236, 20, 9);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1rem;
+	font-size: 25px;
+  }
+  
+  .nav-logo {
+	text-decoration: none;
+	color: rgb(236, 20, 9);
+  }
+  
+  .nav-links {
+	display: flex; /* Change to flex from grid */
+	gap: 100px;
+  }
+  
+  .nav-link {
+	text-decoration: none;
+	color: rgb(213, 109, 5);
+	transition: 0.3s all;
+	padding: 10px; /* Adjust the padding as needed */
+  }
+  
+  .nav-link:hover {
+	color: red;
+  }
+  
+  .nav-icon {
+	display: none;
+	font-size: 1rem;
+	cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 500px) {
+	.navbar {
+	  position: relative;
+	}
+	
+	.nav-links {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 80px;
+		left: -100%;
+		transition: 0.5s all;
+	}
+	
+	.nav-links.active {
+		background: blue;
+		left: 0;
+	}
+	
+	.nav-item {
+	  padding: 10px 0px;
+	  border-top: 1px solid red;
+	  border-bottom: 1px solid red;
+	}
+  
+	.nav-icon {
+	  display: flex;
+	}
+  }
+  
